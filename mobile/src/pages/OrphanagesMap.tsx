@@ -16,7 +16,7 @@ import mapMarker from '../images/map-marker.png';
 export default function OrphanagesMap() {
   const navigation = useNavigation();
 
-  function handleNavigateToOrphanegeDetails() {
+  function handleNavigateToOrphanageDetails() {
     navigation.navigate('OrphanageDetails');
   }
 
@@ -43,7 +43,7 @@ export default function OrphanagesMap() {
             longitude: -43.9344978,
           }}
         >
-          <Callout tooltip onPress={handleNavigateToOrphanegeDetails}>
+          <Callout tooltip onPress={handleNavigateToOrphanageDetails}>
             <View style={styles.calloutContainer}>
               <Text style={styles.calloutText}>Lar das meninas</Text>
             </View>
