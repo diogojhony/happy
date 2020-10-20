@@ -28,8 +28,8 @@ export default function OrphanagesMap() {
     });
   }, []);
 
-  function handleNavigateToOrphanageDetails() {
-    navigation.navigate('OrphanageDetails');
+  function handleNavigateToOrphanageDetails(id: number) {
+    navigation.navigate('OrphanageDetails', { id });
   }
 
   function handleNavigateToCreateOrphanage() {
@@ -61,7 +61,10 @@ export default function OrphanagesMap() {
               longitude: orphanage.longitude,
             }}
           >
-            <Callout tooltip onPress={handleNavigateToOrphanageDetails}>
+            <Callout
+              tooltip
+              onPress={() => handleNavigateToOrphanageDetails(orphanage.id)}
+            >
               <View style={styles.calloutContainer}>
                 <Text style={styles.calloutText}>{orphanage.name}</Text>
               </View>
