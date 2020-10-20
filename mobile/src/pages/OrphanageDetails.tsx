@@ -7,7 +7,6 @@ import {
   StyleSheet,
   Dimensions,
   Linking,
-  Platform,
 } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import { Feather } from '@expo/vector-icons';
