@@ -10,10 +10,8 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/diogojhony/happy?color=15C3D6&labelColor=000000">
 
   <a href="https://github.com/diogojhony/happy/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/diogojhony/happy?color=%2315C3D6&labelColor=000000">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/diogojhony/happy?color=15C3D6&labelColor=000000">
   </a>
-
-  <img alt="GitHub" src="https://img.shields.io/github/license/diogojhony/happy?color=%2315C3D6&labelColor=000000">
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
 </p>
